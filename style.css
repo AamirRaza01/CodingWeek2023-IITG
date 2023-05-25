@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Nunito+Sans:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: #f1f1f1;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 80%;
+}
+
+.avatar{
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: #BABEFF;
+}
+
+/* ############################# top ############################################## */
+
+.top-section{
+    height: 500px;
+    width: 100%;
+    background-color: #656CEC;
+    border-bottom-right-radius: 64px;
+    border-bottom-left-radius: 64px;
+
+}
+
+.top-section h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #fff;
+    font-size: 64px;
+    padding: 18px 0;
+    font-weight: 400;
+}
+
+.toppers{
+    width: 800px;
+    height: 350px;
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.top-rankers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rank2,.rank3{
+    width: 162px;
+    height:250px ;
+}
+
+.rank1{
+    width: 216px;
+    height: 305px;
+}
+
+.rank{
+    width: 36px;
+    height: 36px;
+    background-color: #BABEFF;
+    color: white;
+    border-radius: 50%;
+    position: relative;
+}
+
+.number{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.rank2 .avatar, .rank3 .avatar{
+    width: 160px;
+    height: 160px;  
+}
+
+.rank2 .name, .rank3 .name{
+    height: 30px;
+    width: 150px;
+    padding: 5px 10px;
+    border-radius: 16px;
+    background-color:#BABEFF;
+    color: #fff;
+    text-align: center;
+}
+
+.rank1 .avatar{
+    width: 214px;
+    height: 214px;
+}
+
+.rank1 .name{
+    height: 32px;
+    width: 200px;
+    padding: 5px 10px;
+    border-radius: 36px;
+    background-color:#BABEFF;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* ########################################## below ########################################## */
+
+.below-section{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+.runner-ups{
+    width: 100%;
+    height: 80px;
+    background-color: #D2D4F2;
+    display: inline-block;
+    position: relative;
+}
+
+.runner-ups .position{
+    position: absolute;
+    top: 50%;
+    left: 44px;
+    transform: translate(-50%,-50%);
+}
+
+.runner-ups .avatar{
+    width:65px ;
+    height: 65px;
+    position: absolute;
+    top: 50%;
+    left: 125px;
+    transform: translate(-50%,-50%);
+}
+
+.runner-ups .first-name{
+    width: 60px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 240px;
+}
+
+.runner-ups .data{
+    width: 50px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 90%;
+}
+
+/* ############################################ responsive ####################################
+
+@media (max-width: 750px) and (min-width: 500px){
+    .top-section h1{
+        font-size: 40px;
+        padding: 10px 0;
+    }
+    .toppers{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+ */
